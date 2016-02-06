@@ -1,14 +1,10 @@
 # wonderland
 
-A Clojure library designed to ... well, that part is up to you.
+## Simple Values - Literals
+Expressions that evaluate to themselves.
 
-## Usage
-
-FIXME
-
-## License
-
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+```clojure
+42    ;; => 42 integer
+1.13  ;; => 1.13 decimal
+1/3   ;; => 1/3 ratio
+```
